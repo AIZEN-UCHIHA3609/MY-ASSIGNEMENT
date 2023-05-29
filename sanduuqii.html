@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css box model</title>
+    <style>
+        .main{
+            width: 960px;
+           min-height: 600px;
+            border: 2px solid navy;
+            margin: auto;
+            padding: 5px;
+            background-color: rgb(0, 0, 0);
+        }
+        .heading{
+            width: 942px;
+           min-height: 50px;
+            border: 2px solid navy;
+            margin: auto;
+            padding: 5px;
+            text-align: center;
+            background-color: rgb(255, 20, 157);
+            text-overflow: clip;
+        }
+        .thumbnail{
+            width: 942px;
+           min-height: 25px;
+            border: 2px solid navy;
+            margin: auto;
+            padding: 5px;
+            text-align: center;
+            background-color: rgb(102, 186, 219);
+        }
+        .content{
+            width: 942px;
+          height: 482px;
+            border: 2px solid navy;
+            margin: auto;
+            padding: 5px;
+            background-color: black;
+        }
+        .sectionone{
+            width: 300px;
+            height: 476px;
+            border: 2px solid navy;
+            margin: ;
+            padding: 5px;
+            float: left;
+            background-color: rgb(71, 71, 85);
+        }
+        .sectiontwo{
+            width: 300px;
+            height: 476px;
+            border: 2px solid navy;
+            margin: ;
+            padding: 5px;
+            float:left;
+            background-color: rgb(90, 68, 68);
+        }
+        .sectionthree{
+            width: 300px;
+            height: 476px;
+            border: 2px solid navy;
+            margin: ;
+            padding: 5px;
+            float: right;
+            background-color: rgb(85, 104, 104);
+        }
+        .footer{
+            width: 942px;
+          min-height:25px;
+            border: 2px solid navy;
+            margin: auto;
+            padding: 5px;
+            text-align: center;
+            background-color: rgb(92, 34, 0)
+        }
+        img{
+            width: 250px;
+            height: 270px;
+            border: 2px solid navy;
+            margin: ;
+            padding: 5px;
+            float:left;
+        }
+        img:hover{
+            transform: scale(1.25,1);
+            z-index: 2;
+        }
+        .heading:hover{
+            color: rgb(255, 255, 255);
+            background-color: red;
+        }
+        .thumbnail:hover{
+            color: rgb(30, 20, 58);
+            background-color: cyan;
+        }
+        body{
+            background-color: darkgrey;
+        }
+        h1:hover{
+            color: whitesmoke;}
+            h2:hover{
+             transform: scale(1,1.25);
+            z-index: 2;
+            color: rgb(56, 15, 15);
+            cursor: context-menu;
+            }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; ">MY BOX MODEL</h1>
+    <br>
+    <audio src=""></audio>
+    <div class="main">
+        <div class="heading">WORLD WARS</div>
+        <div class="thumbnail">SUMMARY OF WORLD WARS</div>
+        <div class="content">
+            <div class="sectionone">
+                <h2 style="text-align: center;">ww1</h2>
+                World War I or the First World War, often abbreviated as WWI, was one of the deadliest global conflicts in history. It was fought between two coalitions, the Allies and the Central Powers. Fighting occurred throughout Europe, the Middle East, Africa, the Pacific, and parts of Asia.
+           <div class="container">
+            <div class="box">
+                <img src="ww1.jpeg" alt="">
+            </div>
+           </div>
+            </div>
+            <div class="sectiontwo">
+                <h2 style="text-align: center;">ww2</h2>
+                World War II or the Second World War, often abbreviated as WWII or WW2, was a global conflict that lasted from 1939 to 1945. The vast majority of the world's countries, including all of the great powers, fought as part of two opposing military alliances: the Allies and the Axis
+           <div class="container">
+            <div class="box">
+                <img src="ww2.jpeg" alt="">
+            </div>
+           </div>
+            </div>
+            <div class="sectionthree">
+                <h2 style="text-align: center;">ww3</h2>
+                World War III or the Third World War, often abbreviated as WWIII, ww3, or WW3, are names given to a hypothetical worldwide large-scale military conflict subsequent to World War I and World War II. The term has been in use since at least as early as 1941. Wikipedia
+            <div class="container">
+                <div class="box">
+                    <img src="ww3.jpeg" alt="">
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="footer">TUTORIAL</div>
+    </div>
+</body>
+</html>
